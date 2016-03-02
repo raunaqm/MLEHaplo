@@ -37,7 +37,8 @@ Command:
 Combine paired files into a single file 
 perl construct_graph.pl <fastafile> <kmerfile> <threshold> <graphfile> "s"
 
-Output is the <graphfile> containing pairs of k-mers that form edges in the De Bruijn graph. 
+Output is the <graphfile> containing pairs of k-mers that form edges in the De Bruijn graph.
+The output <graphfile> must be of the form *.graph for use of VIPRA (dg_cover.pl).
 
 # Step 4: Create the paired set file 
 Create the paired set using the paired reads. It takes as input the two paired files,
